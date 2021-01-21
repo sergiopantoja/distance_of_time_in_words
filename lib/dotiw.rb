@@ -39,7 +39,7 @@ module DOTIW
   end
 end # DOTIW
 
-DOTIW.init_i18n!
+# DOTIW.init_i18n!
 
 begin
   require 'action_view'
