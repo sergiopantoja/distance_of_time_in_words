@@ -40,10 +40,3 @@ module DOTIW
 end # DOTIW
 
 # DOTIW.init_i18n!
-
-begin
-  require 'action_view'
-  require_relative 'dotiw/action_view/helpers/date_helper'
-rescue LoadError
-  # TODO: don't rely on exception
-end
